@@ -1,0 +1,8 @@
+IP="192.168.1.72"
+SVC="Api"
+DATE=$(date +"%Y%m%d-%H%M%S")
+#(cd ../../../../ && dotnet clean && dotnet publish -c Release -r linux-x64 --self-contained false)
+echo $DATE
+echo $SVC
+echo $IP
+echo "fim de copia"

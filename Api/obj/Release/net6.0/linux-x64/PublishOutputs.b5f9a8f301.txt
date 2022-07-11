@@ -1,0 +1,11 @@
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Api
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/appsettings.Development.json
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/appsettings.json
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Api.dll
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Api.deps.json
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Api.runtimeconfig.json
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Api.pdb
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Microsoft.OpenApi.dll
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Swashbuckle.AspNetCore.Swagger.dll
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/mnt/c/Users/joao_franca/source/labs/Joao.Test.ScriptPublish/Api/bin/Release/net6.0/linux-x64/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
