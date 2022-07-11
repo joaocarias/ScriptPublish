@@ -1,14 +1,14 @@
 #!/bin/bash
 
-IP="192.168.1.72"
-SVC="Joao.Test.ScriptPublish"
-BOT="/opt/test/" #deve terminar com /
-PEM="~/mypem.pem"
-SRC="$(pwd)/publish/" #deve terminar com /
+#IP="192.168.1.72"
+#SVC="Joao.Test.ScriptPublish"
+#BOT="/opt/test/" #deve terminar com /
+#PEM="~/mypem.pem"
+#SRC="$(pwd)/publish/" #deve terminar com /
 
 DATE=$(date +"%Y%m%d-%H%M%S")
 
-(cd Api && dotnet clean && dotnet publish -c Release -r linux-x64 --self-contained false)  
+#(cd Api && dotnet clean && dotnet publish -c Release -r linux-x64 --self-contained false)  
 
 #&& \
 
