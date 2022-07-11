@@ -1,9 +1,9 @@
 #!/bin/bash
 
-IP="selecaotalentos-pernambucanas.cliqx.com.br"
-SVC="zappag.recrutamento.backend"
-BOT="/opt/facilitabots/zappag/recrutamento/backend/" #deve terminar com /
-PEM="~/fbots/zapway/FacilitaBots-BR.pem"
+IP="192.168.1.72"
+SVC="Joao.Test.ScriptPublish"
+BOT="/opt/test/" #deve terminar com /
+PEM="~/mypem.pem"
 SRC="$(pwd)/publish/" #deve terminar com /
 
 DATE=$(date +"%Y%m%d-%H%M%S")
@@ -12,7 +12,7 @@ DATE=$(date +"%Y%m%d-%H%M%S")
 
 #&& \
 
-#ssh -i $PEM root@$IP "cd /opt/facilitabots/zappag/recrutamento/ && tar -cjf backend_$DATE.tbz backend" && \
+#ssh -i $PEM root@$IP "cd /opt/test/ && tar -cjf backend_$DATE.tbz backend" && \
 #rsync -rPcz --exclude "*.config" --exclude "*.json" --exclude "instance.id" -e "ssh -i $PEM" $SRC root@$IP:$BOT && \
 #rsync -rPcz -e "ssh -i $PEM" $SRC/{*.deps.json,*.runtimeconfig*.json} root@$IP:$BOT && \
 #ssh -i $PEM root@$IP "chown -R dotnetuser:dotnetuser $BOT && service $SVC restart"
